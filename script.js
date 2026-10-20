@@ -17,9 +17,10 @@ const perguntas = [
                 },
                 {
                 texto: "Isso é maravilhoso!",
-                afirmacao: ["Quis saber como usar IA no seu dia a dia.",
-                    
-                ]
+                afirmacao: [
+                    "Quis saber como usar IA no seu dia a dia.",
+                    ""
+                 ]
 
                 }           
             
@@ -29,13 +30,15 @@ const perguntas = [
         enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre elaIA. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
         alternativas: [
             {
-                texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
-                afirmacao:["Conseguiu utilizar a IA para buscar informações úteis,",
+                texto: "Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
+                afirmacao:
+                          ["Conseguiu utilizar a IA para buscar informações úteis,",
                              "Percebeu que a IA pode ajudar a encontrar informacoes úteis na internet de "
+                          ]
             },
             {
                 texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao:"afirmacao"
+                afirmacao:"Sentiu mais facilidade em utilizar seus proprios recursos "
             }
         ]
     },
